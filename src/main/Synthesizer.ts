@@ -49,7 +49,7 @@ let free: (ptr: PointerType) => void;
 let defaultMIDIEventCallback: (data: PointerType, event: MIDIEventType) => number;
 
 function bindFunctions() {
-	if (fluid_synth_error) {
+	if (!!fluid_synth_error) {
 		// (already bound)
 		return;
 	}
