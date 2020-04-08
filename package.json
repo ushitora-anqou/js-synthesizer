@@ -11,6 +11,7 @@
       }
     }
   },
+  "private": true,
   "dependencies": {},
   "description": "Synthesizer library for web-based JS program, using with Web Audio or etc.",
   "devDependencies": {
@@ -24,7 +25,7 @@
     "node": ">=10",
     "npm": ">=6"
   },
-  "homepage": "https://github.com/jet2jet/js-synthesizer",
+  "homepage": "https://github.com/ushitora-anqou/js-synthesizer",
   "keywords": [
     "javascript",
     "synthesizer",
@@ -42,7 +43,7 @@
   "name": "js-synthesizer",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jet2jet/js-synthesizer.git"
+    "url": "https://github.com/ushitora-anqou/js-synthesizer.git"
   },
   "scripts": {
     "prepare": "npm run build:ts && npm run build:lib:dev",
